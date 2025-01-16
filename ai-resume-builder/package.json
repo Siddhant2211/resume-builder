@@ -4,16 +4,13 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "dev": "npm run develop",           
+    "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "prebuild": "rm -rf build",        
+    "prebuild": "rm -rf build",
     "strapi": "strapi",
     "deploy": "strapi deploy"
-  },
-  "devDependencies": {
-    "ajv": "^8.17.1"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.0.0-rc.12",
@@ -24,12 +21,6 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
-  },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "978dac9b-9abb-4430-8fe4-a2848a3e6ed8"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
