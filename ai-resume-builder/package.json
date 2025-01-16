@@ -7,7 +7,7 @@
     "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",      // Corrected "build" script
+    "build": "strapi build",      
     "prebuild": "rm -rf build",
     "strapi": "strapi",
     "deploy": "strapi deploy"
